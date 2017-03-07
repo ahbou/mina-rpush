@@ -1,5 +1,3 @@
-require 'mina/bundler'
-
 namespace :rpush do
   set :rpush_command, -> { "cd #{fetch(:current_path)} && #{fetch(:bundle_prefix)} rpush" }
 
